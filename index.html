@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proof of Work Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Proof of Work Simulator</h1>
+
+    <div class="form-group">
+      <label for="name">Enter Name:</label>
+      <input type="text" id="name" placeholder="e.g. himanshu" />
+    </div>
+
+    <div class="form-group">
+      <label for="difficulty">Difficulty (e.g. 4–6):</label>
+      <input type="number" id="difficulty" placeholder="e.g. 5" min="1" />
+    </div>
+
+    <button onclick="mine()">⛏️ Mine</button>
+
+    <div class="result">
+      <h3>🔢 Input</h3>
+      <p id="inputResult">--</p>
+
+      <h3>💥 Hash</h3>
+      <p id="hashResult">--</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
