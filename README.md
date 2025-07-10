@@ -1,7 +1,7 @@
 # Proof-of-Work-Simulator
-A Proof of Work Simulator project in Web 3.0 and Blockchain.   [Link]()
+A Proof of Work Simulator project in Web 3.0 and Blockchain.   [Link](https://himanshuco.github.io/Proof-of-Work-Simulator/)
 
-Code in Node.js
+## Code in Node.js
 ```
 const crypto = require("crypto");
 
